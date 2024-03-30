@@ -1,0 +1,111 @@
+# --------------------------------------------------- // System
+nvidia                                                 # nvidia
+pipewire                                               # audio/video server
+pipewire-alsa                                          # pipewire alsa client
+pipewire-audio                                         # pipewire audio client
+pipewire-jack                                          # pipewire jack client
+pipewire-pulse                                         # pipewire pulseaudio client
+gst-plugin-pipewire                                    # pipewire gstreamer client
+wireplumber                                            # pipewire session manager
+pavucontrol                                            # pulseaudio volume control
+pamixer                                                # pulseaudio cli mixer
+noise-suppression-for-voice                            # plugin
+networkmanager                                         # network manager
+network-manager-applet                                 # network manager system tray utility
+bluez                                                  # bluetooth protocol stack
+bluez-utils                                            # bluetooth utility cli
+blueman                                                # bluetooth manager gui
+brightnessctl                                          # screen brightness control
+
+
+# --------------------------------------------------- // Display Manager
+sddm                                                   # display manager for KDE plasma
+qt5-quickcontrols                                      # for sddm theme ui elements
+qt5-quickcontrols2                                     # for sddm theme ui elements
+qt5-graphicaleffects                                   # for sddm theme effects
+qt5ct                                                  # qt5
+qt6ct                                                  # qt6
+qt5-wayland                                            # qt5 wayland
+qt6-wayland                                            # qt6 wayland
+
+
+# --------------------------------------------------- // Window Manager
+hyprland                                               # wlroots-based wayland compositor
+dunst                                                  # notification daemon
+swaync                                                 # notification daemon
+wofi                                                   # application launcher
+waybar                                                 # system bar
+waypaper                                               # wallpaper
+hyprlock-git                                           # lock screen
+hyprpicker-git                                         # color picker
+wlogout                                                # logout menu
+grimblast-git                                          # screenshot tool
+hyprpicker                                             # color picker
+slurp                                                  # region select for screenshot/screenshare
+swappy                                                 # screenshot editor
+cliphist                                               # clipboard manager
+wl-clipboard                                           # wl clipboard
+
+
+# --------------------------------------------------- // Dependencies
+polkit-kde-agent                                       # authentication agent
+xdg-desktop-portal-hyprland                            # xdg desktop portal for hyprland
+pacman-contrib                                         # for system update check
+parallel                                               # for parallel processing
+jq                                                     # for json processing
+imagemagick                                            # for image processing
+
+
+# --------------------------------------------------- // Theming
+nwg-look                                               # gtk configuration tool
+qt5ct                                                  # qt5 configuration tool
+qt6ct                                                  # qt6 configuration tool
+kvantum                                                # svg based qt theme engine
+qt5-wayland                                            # wayland support in qt5
+qt6-wayland                                            # wayland support in qt6
+ttf-firacode-nerd                                      # fonts
+noto-fonts                                             # fonts
+noto-fonts-emoji                                       # fonts
+ttf-nerd-fonts-symbols-common                          # fonts
+otf-firamono-nerd                                      # fonts
+tokyonight-gtk-theme-git                               # gtk theme
+candy-icons-git                                        # candy icons
+
+
+# --------------------------------------------------- // Applications
+firefox                                                # browser
+kitty                                                  # terminal
+thunar                                                 # file manager
+thunar-archive-plugin                                  # plugin
+thunar-media-tags-plugin                               # plugin
+ranger                                                 # file manager
+tar                                                    # archiver
+zip                                                    # archiver
+unzip                                                  # archiver
+neovim                                                 # terminal text editor
+
+
+# --------------------------------------------------- // Shell
+fish                                                   # shell
+eza                                                    # file lister for zsh
+lsd                                                    # file lister for fish
+starship                                               # customizable shell prompt
+neofetch                                               # fetch tool
+ripgrep                                                # better grep
+bat                                                    # better cat
+
+# --------------------------------------------------- // Custom
+perfmode                                               # for ASUS laptops
+seahorse                                               # pass & cert manager
+webcord                                                # discord
+vlc                                                    # media player
+spotify                                                # spotify
+spicetify-cli-git                                      # spicetify
+spicetify-marketplace-bin                              # spicetify plugin
+nodejs                                                 # node js
+npm                                                    # node package manager
+rustup                                                 # rust
+htop                                                   # htop
+bruno                                                  # better postman
+croc                                                   # relay file sharer
+nyaa-bin                                               # nyaa tui (torrent downloader)
